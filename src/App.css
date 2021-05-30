@@ -27,7 +27,58 @@
 .App-link {
   color: #61dafb;
 }
+.personnel-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
 
+.personnel-card {
+  border-radius: 6px;
+  background: white;
+  position: relative;
+  margin: 2rem;
+  width: 400px;
+  display: flex;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 5%);
+}
+
+.personnel-card > img {
+  width: 20%;
+  height: 100px;
+  border-radius: 50%;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: static;
+}
+
+.personnel-card > div > h3 {
+  color: cornflowerblue;
+  padding: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.personnel-card > div > p {
+  color: black;
+  font-family: monospace;
+  padding: 0.5rem;
+}
+/* .personnel-card > button {
+  color: lightseagreen;
+  border-radius: 4px;
+} */
+.btn-personnel {
+  background-color: rgb(72, 136, 189);
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  padding: 5px 30px;
+  margin: 2px;
+  border-color: transparent;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
