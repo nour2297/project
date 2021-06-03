@@ -13,7 +13,7 @@ export const addPersonnel = (newpersonnel) => {
   };
 };
 //delete personnel
-export const deletePErsonnel = (matricule) => {
+export const deletePersonnel = (matricule) => {
   return {
     type: DELETE_PERSONNEL,
     payload: matricule,

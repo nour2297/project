@@ -9,6 +9,7 @@ export const PersonnelsData = [
     phone: "25 212 461",
     mail: "nourmezghani22@gmail.com",
     adress: "route tunis km5.5,Sfax",
+    soldeCongés: 1,
   },
   {
     matricule: Math.random(),
@@ -19,8 +20,20 @@ export const PersonnelsData = [
     dateBirth: "10/02/1995",
     phone: "25 212 461",
     mail: "nourmezghani22@gmail.com",
-
     adress: "route teniour km ,Sfax",
+    soldeCongés: 10,
+  },
+  {
+    matricule: Math.random(),
+    image:
+      "https://cdn.discordapp.com/attachments/839672580569825340/849046876829384704/Photos_GoMyCode_Sfax_09.04_52-min-min.jpg",
+    firstName: "Abdelmoula",
+    lastName: "Ahmed",
+    dateBirth: "10/10/1994",
+    phone: "20 444 666",
+    mail: "ahmedabdelmoula@gmail.com",
+    adress: "route tunis km5.5,Sfax",
+    soldeCongés: 2,
   },
   {
     matricule: Math.random(),
@@ -32,6 +45,7 @@ export const PersonnelsData = [
     phone: "25 212 461",
     mail: "nourmezghani22@gmail.com",
     adress: "route tunis km5.5,Sfax",
+    soldeCongés: 0,
   },
   {
     matricule: Math.random(),
@@ -43,16 +57,6 @@ export const PersonnelsData = [
     phone: "25 212 461",
     mail: "nourmezghani22@gmail.com",
     adress: "route tunis km5.5,Sfax",
-  },
-  {
-    matricule: Math.random(),
-    image:
-      "https://scontent.ftun7-1.fna.fbcdn.net/v/t1.6435-9/80403533_2512202565702639_2549474913115176960_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_ohc=MdbEejhBBuIAX9t0DX3&_nc_ht=scontent.ftun7-1.fna&oh=9730de3502682a66cbabe0e42bec324c&oe=60D37398",
-    firstName: "Mezghani",
-    lastName: "Nour",
-    dateBirth: "22/05/1997",
-    phone: "25 212 461",
-    mail: "nourmezghani22@gmail.com",
-    adress: "route tunis km5.5,Sfax",
+    soldeCongés: 3,
   },
 ];

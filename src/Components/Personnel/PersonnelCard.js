@@ -1,6 +1,9 @@
 import React from "react";
-
+import { useDispatch } from "react-redux";
+import { deletePersonnel } from "../../Redux/PersonnelRedux/actions";
+import EditPersonnel from "./EditPersonnel";
 const PersonnelCard = ({ personnel }) => {
+  const dispatch = useDispatch();
   return (
     <div className="personnel-card">
       <img src={personnel.image} alt="hi" />
@@ -12,9 +15,15 @@ const PersonnelCard = ({ personnel }) => {
         <p>+216 {personnel.phone}</p>
         <p>{personnel.mail}</p>
         <p>{personnel.adress}</p>
+
         <div>
-          <button className="btn-personnel">Add</button>
-          <button className="btn-personnel">Edit</button>
+          <EditPersonnel oldpersonnel={personnel}></EditPersonnel>
+          <button
+            className="btn-personnel"
+            onClick={() => dispatch(deletePersonnel(personnel.matricule))}
+          >
+            Delete
+          </button>
         </div>
       </div>
     </div>
