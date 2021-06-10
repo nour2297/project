@@ -52,11 +52,11 @@ const SideBar = () => {
           <SidebarHeader>
             <div className="logotext">
               {/* small and big change using menucollapse state */}
-              <p>{menuCollapse ? "Logo" : "Big Logo"}</p>
-            </div>
-            <div className="closemenu" onClick={menuIconClick}>
-              {/* changing menu collapse icon on click */}
-              {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
+              {/* <p>{menuCollapse ? "Logo" : "Big Logo"}</p> */}
+              <img
+                src="https://svn.apache.org/repos/asf/lucene.net/branches/3.0.3/branding/logo/lucene-net-icon-512x256.png"
+                alt=""
+              />
             </div>
           </SidebarHeader>
           <SidebarContent>
@@ -65,13 +65,13 @@ const SideBar = () => {
                 <Link to="/Home">Home</Link>
               </MenuItem>
               <MenuItem icon={<FiUsers />}>
-                <Link to="/Personnels">Personnel</Link>
+                <Link to="/Personnels">Personnels</Link>
               </MenuItem>
               <MenuItem icon={<HiPencilAlt />}>
-                <Link to="/"> Congés</Link>
+                <Link to="/DemandeCongés"> Congés</Link>
               </MenuItem>
               <MenuItem icon={<HiOutlineCheck />}>
-                <Link to="/">Validation Congés</Link>
+                <Link to="/ValidationCongés">Validation Congés</Link>
               </MenuItem>
               {/* <MenuItem icon={<BiCog />}>Settings</MenuItem> */}
             </Menu>

@@ -50,12 +50,12 @@ export const PersonnelsData = [
   {
     matricule: Math.random(),
     image:
-      "https://scontent.ftun7-1.fna.fbcdn.net/v/t1.6435-9/80403533_2512202565702639_2549474913115176960_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=174925&_nc_ohc=MdbEejhBBuIAX9t0DX3&_nc_ht=scontent.ftun7-1.fna&oh=9730de3502682a66cbabe0e42bec324c&oe=60D37398",
-    firstName: "Mezghani",
-    lastName: "Nour",
+      "https://cdn.discordapp.com/attachments/831888791698407434/850407195518697482/myProfile1.jpg",
+    firstName: "Fathallah",
+    lastName: "Ahmed",
     dateBirth: "22/05/1997",
-    phone: "25 212 461",
-    mail: "nourmezghani22@gmail.com",
+    phone: "20 410 461",
+    mail: "ahmedfathallah@gmail.com",
     adress: "route tunis km5.5,Sfax",
     soldeCongés: 3,
   },

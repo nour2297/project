@@ -81,7 +81,7 @@ const EditPersonnel = ({ oldpersonnel }) => {
             onChange={handleChange}
             // required
           />
-          <label> Date of Birth </label>
+          <label> Date of Birth</label>
           <input
             type="date"
             value={form.dateBirth}
@@ -90,7 +90,7 @@ const EditPersonnel = ({ oldpersonnel }) => {
             // required
           />
 
-          <label> Phone Number</label>
+          <label> Phone</label>
           <input
             type="text"
             value={form.phone}
@@ -122,11 +122,19 @@ const EditPersonnel = ({ oldpersonnel }) => {
             onChange={handleChange}
             // required
           />
+          <label>Vacation pay</label>
+          <input
+            type="number"
+            value={form.soldeCongés}
+            name="soldeCongés"
+            onChange={handleChange}
+            // required
+          />
           <div>
-            <button className="btn btn-primary" type="submit">
+            <button className=" btn btn-confirm" type="submit">
               Edit
             </button>
-            <button className="btn btn-danger" onClick={closeModal}>
+            <button className=" btn btn-cancel" onClick={closeModal}>
               Cancel
             </button>
           </div>

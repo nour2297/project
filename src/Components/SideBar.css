@@ -1,5 +1,5 @@
 #header {
-  position: absolute;
+  position: fixed;
   width: 220px;
 }
 #header .pro-sidebar {
@@ -70,6 +70,10 @@
 }
 #header .logo {
   padding: 20px;
+}
+.logotext > img {
+  height: 80px;
+  width: 200px;
 }
 
 @media only screen and (max-width: 720px) {

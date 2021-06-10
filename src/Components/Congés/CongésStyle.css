@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,800&display=swap");
+
+.form-style-3 {
+  max-width: 450px;
+  font-family: cursive;
+}
+.form-style-3 label {
+  display: flex;
+  margin-bottom: 2px;
+  font-family: Muli;
+}
+.form-style-3 label > span {
+  float: left;
+  width: 100px;
+  color: #f072a9;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 input {
+  padding: 0.4em;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn {
+  outline: 0;
+  margin: 15px;
+  cursor: pointer;
+  font-family: cursive;
+  border-radius: 20px;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 16px;
+  width: 300px;
+
+  padding: 0.5rem 1rem;
+}
+.btn-cancel {
+  color: white;
+
+  background: lightcoral;
+}
+
+.btn-submit {
+  color: white;
+  background: cornflowerblue;
+}
+
+.required {
+  color: red;
+  font-weight: normal;
+}
+.btn-congés {
+  display: flex;
+}

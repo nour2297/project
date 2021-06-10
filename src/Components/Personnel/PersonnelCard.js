@@ -16,7 +16,7 @@ const PersonnelCard = ({ personnel }) => {
         <p>{personnel.mail}</p>
         <p>{personnel.adress}</p>
 
-        <div>
+        <div className="btn-div">
           <EditPersonnel oldpersonnel={personnel}></EditPersonnel>
           <button
             className="btn-personnel"
